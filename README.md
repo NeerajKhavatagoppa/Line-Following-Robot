@@ -1,2 +1,1 @@
-# Line-Following-Robot
-I am Using MSPM0G3507 microcontroller to make this Project
+I used two IR sensors with the MSPM0G3507 microcontroller to control motor speed using PWM. The sensors detected the line, and based on their input, I adjusted the motor speeds. If the left sensor detected the line, I decreased the left motor speed and increased the right motor speed using PWM, making the robot turn right. If the right sensor detected the line, I did the opposite to turn left. When both sensors were on the line, both motors ran at normal speed, keeping the robot moving straight. This dynamic speed adjustment via PWM ensured smooth and accurate line following.
